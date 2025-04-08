@@ -1,10 +1,32 @@
 /* Google fonts import*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap");
 
-body{
-    font-family: "Inter", sans-serif ;
+/* CSS Variables */   /* we put the root class so we can  to make it globally accessible to the entire CSS file */
+:root {
+    --primary-font: "Inter" , sans-serif;
+    --secondary-font: "Macondo" , cursive;
+    --primary-color: #3a2620; /*bark brown*/
+    --scondary-color: #aa9581; /*light-brown*/
+    --highlight-color: #416a8e; /*blue*/
+    --light-highloght-color: #7a9fc2; /*light blue */
+
 }
 
-h1 {
-    font-family: "Macondo", cursive ;
+/* Global styles */
+
+body{
+    font-family: var(--primary-font) ;
 }
+
+h1,
+h2,
+h3 {
+    font-family:var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color)
+}
+
+
