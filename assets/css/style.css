@@ -66,6 +66,47 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game libraray */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
+
+/* Footer */
+#contact {
+    background-color: var(--primary-color);
+    color:white;
+    padding-bottom: 3rem;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact .sub-heading-color {
+    color: var(--light-highloght-color);
+}
+
+#contact i {
+    color: var(--scondary-color);
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+#contact .social-links i {
+    color: var(--light-highloght-color);
+    font-size: 1.9rem;
+    transition: color 0.3s ease-in-out;
+}
+#contact .social-links i:hover {
+    color: var(--scondary-color);
+}
+
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /*gird visulisation CSS for testing */
 
 /*.container,
