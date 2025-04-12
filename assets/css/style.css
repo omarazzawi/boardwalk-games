@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google fonts import*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap");
 
@@ -8,7 +15,7 @@
     --primary-color: #3a2620; /*bark brown*/
     --secondary-color: #aa9581; /*light-brown*/
     --highlight-color: #416a8e; /*blue*/
-    --light-highloght-color: #7a9fc2; /*light blue */
+    --light-highlight-color: #7a9fc2; /*light blue */
 
 }
 
@@ -99,7 +106,7 @@ h2 {
 /* Event Section*/
 
 #events .table {
-    /* make the font smaller so we privent overflow*/
+    /* make the font smaller so we prevent overflow*/
     font-size: 0.7rem;
 }
 .student-discount {
@@ -114,18 +121,12 @@ h2 {
 
 }
 
-/* Game libraray */
+/* Game library */
 
 #new-games .card,
 #fav-games .card {
     border: none;
 }
-
-
-
-#reserve-game .custom-button-outline {
-    margin-right: 100px§;
-} 
 
 
 /* Footer */
@@ -152,6 +153,8 @@ h2 {
 #contact .social-links i {
     color: var(--light-highloght-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 #contact .social-links i:hover {
@@ -161,19 +164,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/*gird visulisation CSS for testing */
-
-/*.container,
-.row {
-    border: 2px solid  black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-}
-*/
 
 /* Media queries */
 
