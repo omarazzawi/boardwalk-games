@@ -16,7 +16,9 @@
 
 body{
     font-family: var(--primary-font) ;
+    padding-top: 57.15px; /* pushes the top of the header down under fixed navbar */
 }
+
 
 h1,
 h2,
@@ -49,6 +51,11 @@ h2 {
     color: white;
 }
 
+.custom-button-filled:hover {
+    border: 2px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    color: white;
+}
 .custom-button-filled:hover {
     border: 2px solid var(--secondary-color);
     background-color: var(--secondary-color);
@@ -90,12 +97,37 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Event Section*/
+
+#events .table {
+    /* make the font smaller so we privent overflow*/
+    font-size: 0.7rem;
+}
+.student-discount {
+    background-color: var(--highlight-color);
+    font-weight: bold;
+    display: block;
+    color: white;
+    max-width: 300px;
+    margin: auto;
+    padding: 5px 10px;
+    
+
+}
+
 /* Game libraray */
 
 #new-games .card,
 #fav-games .card {
     border: none;
 }
+
+
+
+#reserve-game .custom-button-outline {
+    margin-right: 100px§;
+} 
+
 
 /* Footer */
 #contact {
